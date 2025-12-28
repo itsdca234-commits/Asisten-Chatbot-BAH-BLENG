@@ -1,0 +1,49 @@
+:root {
+    --primary-color: #001f3f;
+    --secondary-color: #FF7F50;
+    --accent-color: #00BFFF;
+    --text-color: #E6F1FF;
+    --background-color: #0a192f;
+}
+
+.stApp {
+    background-color: var(--background-color);
+}
+
+.chat-container {
+    background: linear-gradient(145deg, var(--primary-color), #003366);
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 8px 25px rgba(0, 191, 255, 0.2), 0 4px 10px rgba(0, 0, 0, 0.5);
+    border: 1px solid var(--accent-color);
+}
+
+h1, h2, h3, p, div, .stTextArea {
+    color: var(--text-color);
+}
+
+.stButton > button {
+    background-color: var(--secondary-color);
+    color: white;
+    border: 2px solid var(--secondary-color);
+    border-radius: 25px;
+    font-weight: bold;
+    padding: 10px 25px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 10px rgba(255, 127, 80, 0.3);
+}
+
+.stButton > button:hover {
+    background-color: #FFA500;
+    border-color: #FFA500;
+    transform: translateY(-3px);
+    box-shadow: 0 6px 15px rgba(255, 165, 0, 4);
+}
+
+.stTextInput > div > div > input {
+    background-color: rgba(255, 255, 255, 0.1); /* Transparan */
+    border: 1px solid var(--accent-color);
+    border-radius: 10px;
+    color: var(--text-color);
+    padding: 10px;
+}
